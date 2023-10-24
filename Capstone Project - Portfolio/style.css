@@ -1,41 +1,88 @@
 body {
-    text-align: center;
-    margin: 0;
+  color: #40514e;
+  text-align: center;
+  margin: 0;
+  font-family: "Merriweather", serif;
 }
 
 h1 {
-    color: #66bfbf;
-    font-size: 5.625rem;
-    font-family: 'Sacramento', cursive;
-    margin: 50px auto 0 auto;
+  color: #66bfbf;
+  font-size: 5.625rem;
+  font-family: "Sacramento", cursive;
+  margin: 50px auto 0 auto;
 }
 
 h2 {
-    color: #66bfbf;
-    font-size: 2.5rem;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: normal;
-    padding-bottom: 10px;
+  color: #66bfbf;
+  font-size: 2.5rem;
+  font-family: "Montserrat", sans-serif;
+  font-weight: normal;
+  padding-bottom: 10px;
+}
+
+h3 {
+  color: #11999e;
+  font-family: "Montserrat", sans-serif;
 }
 
 .pro {
-    text-decoration: underline;
+  text-decoration: underline;
 }
 
 .top-container {
-    background-color: #e4f9f5;
-    position: relative;
-    padding-top: 100px;
+  background-color: #e4f9f5;
+  position: relative;
+  padding-top: 100px;
 }
 
 .top-cloud {
-    position: absolute;
-    right: 300px;
-    top: 40px;
+  position: absolute;
+  right: 300px;
+  top: 40px;
 }
 
 .bottom-cloud {
-    position: absolute;
-    left: 250px;
-    bottom: 300px;
+  position: absolute;
+  left: 250px;
+  bottom: 300px;
+}
+
+.intro {
+  width: 30%;
+  margin: auto;
+}
+
+p {
+  line-height: 2;
+}
+
+hr {
+  width: 4%;
+  border: dotted #eaf6f6 6px;
+  border-bottom: none;
+  margin: 100px auto;
+}
+
+.parent {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 1fr;
+  width: 50%;
+  margin: 100px auto 0 auto;
+  row-gap: 2rem;
+  text-align: left;
+}
+
+.computer-img {
+  border-radius: 50%;
+  height: 150px;
+  float: left;
+  margin-right: 30px;
+  margin-bottom: 30px;
+}
+
+.chillies-img {
+  height: 150;
+  margin-left: 30px;
+  float: right;
 }
