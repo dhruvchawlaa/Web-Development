@@ -22,9 +22,12 @@ $("h1").hasClass("margin-50");
 
 // Manipulating text
 $("h1").text("Bye!");
-$("button").text("Don't click me!")
+$("button").text("Don't click me!");
 
 // Editing html
 $("button").html("<em>CLick me</em>");
 
-// 
+// Manipulating attributes
+console.log($("img").attr("src"));
+$("a").attr("href", "https://www.github.com/");
+console.log($("h1").attr("class"));
