@@ -19,3 +19,12 @@ $("h1").addClass("big-title margin-50");
 
 // Checking whether the element has a class
 $("h1").hasClass("margin-50");
+
+// Manipulating text
+$("h1").text("Bye!");
+$("button").text("Don't click me!")
+
+// Editing html
+$("button").html("<em>CLick me</em>");
+
+// 
