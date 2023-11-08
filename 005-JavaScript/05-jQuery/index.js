@@ -31,3 +31,24 @@ $("button").html("<em>CLick me</em>");
 console.log($("img").attr("src"));
 $("a").attr("href", "https://www.github.com/");
 console.log($("h1").attr("class"));
+
+// Adding event listeners
+$("h1").click(function () {
+  $("h1").css("color", "purple");
+});
+
+$("button").click(function () {
+  $("h1").css("color", "blue");
+});
+
+$("input").keydown(function (event) {
+  console.log(event.key);
+});
+
+$(document).keydown(function (event) {
+  $("h1").text(event.key);
+});
+
+$("h1").on("mouseover", function () {
+  $("h1").css("color", "yellow");
+});
