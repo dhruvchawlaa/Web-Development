@@ -58,4 +58,55 @@ $("h1").before("<button>New</button>");
 $("h1").after("<button>New</button>");
 $("h1").prepend("<button>New</button>"); // Creates inside element before content
 $("h1").append("<button>New</button>"); // Creates inside element after content
-$("button").remove();
+// $("button").remove();
+
+// Adding animations
+$("button").on("click", function() {
+  $("h1").hide();
+})
+
+$("button").on("click", function() {
+  $("h1").show();
+})
+
+$("button").on("click", function() {
+  $("h1").toggle();
+})
+
+$("button").on("click", function() {
+  $("h1").fadeOut();
+})
+
+$("button").on("click", function() {
+  $("h1").fadeIn();
+})
+
+$("button").on("click", function() {
+  $("h1").fadeToggle();
+})
+
+$("button").on("click", function() {
+  $("h1").slideUp();
+})
+
+$("button").on("click", function() {
+  $("h1").slideDown();
+})
+
+$("button").on("click", function() {
+  $("h1").slideToggle();
+})
+
+// Defining custom CSS to gradually animate towards
+$("button").on("click", function () {
+  $("h1").animate({
+    opacity: 0.5, // Can only animate css rules that have a numeric value
+  });
+});
+
+// Chaining animations
+$("button").on("click", function () {
+  $("h1").slideUp().slideDown().animate({
+    opacity: 0.5,
+  });
+});
