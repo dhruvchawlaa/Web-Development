@@ -29,7 +29,10 @@ function nextSequence() {
   gamePattern.push(randomChosenColour);
 
   // Selecting button with the id
-  $("#" + randomChosenColour).fadeIn(100).fadeOut(100).fadeIn(100);
+  $("#" + randomChosenColour)
+    .fadeIn(100)
+    .fadeOut(100)
+    .fadeIn(100);
 
   // Playing sound
   playSound(randomChosenColour);
