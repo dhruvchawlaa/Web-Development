@@ -1,4 +1,4 @@
-# Simon Game
+# Simon Game (https://simonsequences.netlify.app/)
 
 A classic Simon memory game implemented using jQuery.
 
