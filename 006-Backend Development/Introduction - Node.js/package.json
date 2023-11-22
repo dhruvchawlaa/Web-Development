@@ -1,9 +1,8 @@
 {
-  "name": "learning-npm",
+  "name": "introduction---node",
   "version": "1.0.0",
-  "description": "I'm learning about NPM",
+  "description": "I am learning about NPM",
   "main": "index.js",
-  "//": "Add 'module' type to use ECMAScript with node 👇🏻",
   "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -11,11 +10,7 @@
   "author": "Dhruv",
   "license": "ISC",
   "dependencies": {
-    "inquirer": "^9.2.12",
-    "qr-image": "^3.2.0",
     "sillyname": "^0.1.0",
     "superheroes": "^3.0.0"
-  },
-  "devDependencies": {},
-  "keywords": []
+  }
 }
